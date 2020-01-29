@@ -11,7 +11,25 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
+a:hover{
+  text-decoration: none;
+}
+.copyright {
+  padding-top: 18px;
+  padding-bottom: 14px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8a91ac;
+}
+.social-icons li {
+  margin: 0 5px !important;
+}
+.social{
+  color: #8a91ac;
+}
+hr{
+  margin-bottom: 0;
+}
 .bg-construct {
   background-image: url(../img/construction.jpg);
   background-size: cover;
