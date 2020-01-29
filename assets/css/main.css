@@ -37,6 +37,14 @@ hr{
   height: 100vh;
 }
 
+@media (max-width: 550px){
+  .copyright, .copyright .social-icons {
+    text-align: center;
+    margin: 0 auto !important;
+    /* display: block !important; */
+  }
+}
+
 .navbar-main {
   background-color: #f6f5f5;
   box-shadow: 1px -1px 4px rgb(63, 60, 60);
